@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartwatch Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Indie+Flower&family=Raleway:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <img src="./assets/logo.jpg" alt="Logo" id="header-img">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="video">
+      <h1>Our smartwatches are crafted with the highest quality materials and advanced technology.</h1>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/O-Jkt2eDAU0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <section class="allCards">
+      <section id="features" class="card">
+        <h2>Features</h2>
+        <hr>
+        <ul>
+          <li>Activity Tracking</li>
+          <li>Heart Rate Monitoring</li>
+          <li>Notifications</li>
+          <li>Water Resistant</li>
+        </ul>
+      </section>
+      <section id="pricing" class="card">
+        <h2>Pricing</h2>
+        <hr>
+        <ul>
+          <li>Basic: $99</li>
+          <li>Premium: $199</li>
+          <li>Ultimate: $299</li>
+        </ul>
+      </section>
+    </section>
+    <hr>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Smartwatch Landing Page</p>
+  </footer>
+</body>
+
+</html>
